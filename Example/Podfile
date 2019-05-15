@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MOBaseControls_Example' do
+  pod 'MOBaseControls', :path => '../'
+
+  target 'MOBaseControls_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
