@@ -1,6 +1,6 @@
 {
   "name": "MOBaseControls",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "基础控件",
   "description": "项目中常用的基本控件.",
   "homepage": "https://github.com/Caprioce/MOBaseControls",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Caprioce/MOBaseControls.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"

@@ -1,5 +1,5 @@
 PODS:
-  - MOBaseControls (0.1.0):
+  - MOBaseControls (0.1.1):
     - SnapKit (~> 4.2.0)
   - SnapKit (4.2.0)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MOBaseControls: f4feae0372ea315c71f90ae69b34d9c70f3e913d
+  MOBaseControls: d9ae9a8f22759a3ae2157d8681ffcb007c56443c
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
 PODFILE CHECKSUM: c5b33ed7aa624ba9f548fccb136b6cc803c665fa
