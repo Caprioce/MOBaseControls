@@ -1,0 +1,6 @@
+framework module Pods_MOBaseControls_Example {
+  umbrella header "Pods-MOBaseControls_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

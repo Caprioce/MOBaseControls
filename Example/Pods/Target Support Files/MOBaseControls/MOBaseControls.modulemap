@@ -1,0 +1,6 @@
+framework module MOBaseControls {
+  umbrella header "MOBaseControls-umbrella.h"
+
+  export *
+  module * { export * }
+}
