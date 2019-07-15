@@ -49,11 +49,11 @@ public final class CYActionSheetViewController: UIViewController {
     /// 选中的行数
     var selectIndex: Int?
 
-    convenience init(titleArr: [String]) {
+    public convenience init(titleArr: [String]) {
         self.init(titleArr: titleArr, selectIndex: nil)
     }
 
-    convenience init(titleArr: [String], selectIndex: Int?) {
+    public convenience init(titleArr: [String], selectIndex: Int?) {
         self.init()
         modalTransitionStyle = .crossDissolve
         modalPresentationStyle = .overCurrentContext
@@ -61,13 +61,13 @@ public final class CYActionSheetViewController: UIViewController {
         self.selectIndex = selectIndex
     }
 
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(shadowView)
         view.addSubview(tableView)
     }
 
-    override func viewWillAppear(_ animated: Bool) {
+    public override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         showAnimation()
     }
@@ -107,15 +107,15 @@ extension CYActionSheetViewController {
 //MARK:- UITableViewDelegate
 extension CYActionSheetViewController: UITableViewDelegate, UITableViewDataSource {
 
-    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+    public func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         return nil
     }
 
-    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+    public func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return CGFloat.leastNonzeroMagnitude
     }
 
-    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+    public func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
         let view = tableView.dequeueReusableHeaderFooterView(withIdentifier: "CYActionSheetFooterView") as! CYActionSheetFooterView
         view.cancelBlock = { [weak self] in
             guard let `self` = self else { return }
@@ -124,21 +124,21 @@ extension CYActionSheetViewController: UITableViewDelegate, UITableViewDataSourc
         return view
     }
 
-    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+    public func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
         return 58
     }
 
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return titleArr.count
     }
 
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CYActionSheetCell") as! CYActionSheetCell
         cell.config(content: titleArr[indexPath.row], isChoosen: (selectIndex == indexPath.row ? true:false))
         return cell
     }
 
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         dismissAnimation { [weak self] in
             if let _ = self?.clickBlock {
                 self?.clickBlock!(indexPath.row)
