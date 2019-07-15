@@ -15,7 +15,7 @@ let kCYMainColor  = UIColor.color(hexString: "19A89F")
 let kCYLineColor  = UIColor.color(hexString: "f6f6f6")
 let kNavigationHeight = CGFloat(kScreenHeight > 736.0 ? 88.0 : 64.0)
 let kStatusHeight = UIApplication.shared.statusBarFrame.height
-let author        = "mo"
+let author        = "teacherMo"
 
 class CYActionSheetViewController: UIViewController {
 
