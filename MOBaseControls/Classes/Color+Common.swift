@@ -54,7 +54,7 @@ extension UIView {
 
 }
 
-extension Double {
+public extension Double {
 
     var suitWidth: CGFloat {
         return CGFloat(self/375)*kScreenWidth
