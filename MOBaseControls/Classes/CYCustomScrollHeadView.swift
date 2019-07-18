@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CYCustomScrollHeadView: UIView {
+public class CYCustomScrollHeadView: UIView {
 
     fileprivate lazy var leftButton: UIButton = {
         let leftButton = UIButton(frame: CGRect(x: 0, y: 0, width: frame.width/2, height: frame.height))
@@ -67,17 +67,17 @@ class CYCustomScrollHeadView: UIView {
         }
     }
 
-    convenience init(frame: CGRect, leftTitle: String, rightTitle: String) {
+    public convenience init(frame: CGRect, leftTitle: String, rightTitle: String) {
         self.init(frame: frame)
         config(leftTitle, rightTitle)
     }
 
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         makeUI()
     }
 
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 

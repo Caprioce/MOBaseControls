@@ -10,7 +10,7 @@ import Foundation
 
 fileprivate var UITableviewNodataKey: String = "UITableviewNodataKey"
 
-extension UITableView {
+public extension UITableView {
 
     var noDataView: UIView? {
         set {

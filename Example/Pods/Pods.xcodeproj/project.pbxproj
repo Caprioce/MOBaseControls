@@ -45,6 +45,8 @@
 		893E873A5D1423E3C5954031394AC16C /* CYCustomScrollHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416BEA8D1C441B9CEF6ABE6AF1ADF3EB /* CYCustomScrollHeadView.swift */; };
 		975123C95A07B24FF53243E88851A1A9 /* CYTipAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B221AE1CE5172E0846A5BA250885CECB /* CYTipAlertViewController.swift */; };
 		99DB5244381F5CEB1E4F54B3F702E937 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A7AEA6044B2018807C2D766ED9025D /* ConstraintItem.swift */; };
+		9AED528522E051D5006AAA8B /* MBProgressHUD+HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED528222E051D4006AAA8B /* MBProgressHUD+HUD.swift */; };
+		9AED528622E051D5006AAA8B /* UIView+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED528322E051D4006AAA8B /* UIView+Common.swift */; };
 		9DBD00C9807375C46718D6D42963367B /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC6236D47CB2BA34B4F1F344E985DF2 /* ConstraintMultiplierTarget.swift */; };
 		A048F6A041319F955B1E5BCDECBB0425 /* Tch_007_shortGreen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3FB1A5B1AC4534F782EDB25ECF16404 /* Tch_007_shortGreen@3x.png */; };
 		A5392D6FD35AB41212F2ED3A84874B95 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDC6561D7E59F96048734F4A9C87399 /* LayoutConstraint.swift */; };
@@ -113,7 +115,7 @@
 /* Begin PBXFileReference section */
 		02E6A0E89915574C7D9DBC896D4A76A7 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
 		0A754244D675324E814E05CF1E281645 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
-		0B685D17BF457B3957EA00B811FCA804 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0B685D17BF457B3957EA00B811FCA804 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0F35CC752552F04AB66E463038D796B6 /* Pods-MOBaseControls_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MOBaseControls_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1130F5D880F2BCDC4D435D068BDDFD23 /* CYTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CYTools.swift; path = MOBaseControls/Classes/CYTools.swift; sourceTree = "<group>"; };
 		14ABC1FF8C8F648909E0AC7911172933 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
@@ -139,9 +141,9 @@
 		54333A81CE35E6F9C3F2E8148C98EC9D /* Pods-MOBaseControls_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MOBaseControls_Tests-umbrella.h"; sourceTree = "<group>"; };
 		58EC9AD7E3E56AECDD325EAE03B26296 /* Pods-MOBaseControls_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MOBaseControls_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5D03F3C139319EA4D8F5A6B079637C29 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
-		5F9B9AEF4AA0D3513DFB54AEC1ACC021 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5F9B9AEF4AA0D3513DFB54AEC1ACC021 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5FC6236D47CB2BA34B4F1F344E985DF2 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
-		61627F4A7EA07126E724C1B4A3D34952 /* Pods_MOBaseControls_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MOBaseControls_Example.framework; path = "Pods-MOBaseControls_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61627F4A7EA07126E724C1B4A3D34952 /* Pods_MOBaseControls_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MOBaseControls_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		633C46243BA2ECE5BB8E79AD60DF6B71 /* Pods-MOBaseControls_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MOBaseControls_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		65ECFB28DDFA00A26C7DEFA47C0B957D /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
 		696D0C15939397708F7A906796D4C407 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
@@ -150,7 +152,7 @@
 		6FC0D561726282E3C957EDF3CF66B47A /* Pods-MOBaseControls_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MOBaseControls_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6FDC6561D7E59F96048734F4A9C87399 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
 		718501E66EB9C33CE1F87D62CC2CC57D /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
-		72DEC120E1FD56888DF6F54BF6A3615B /* MOBaseControls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MOBaseControls.framework; path = MOBaseControls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72DEC120E1FD56888DF6F54BF6A3615B /* MOBaseControls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MOBaseControls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		734D85E58F3C5B8F418EE9B0A943DFB6 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
 		74D1F6250B9560C48D2982462F5197C7 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
 		74D235C0E8456DA03B8724F17EA46D9F /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
@@ -160,7 +162,7 @@
 		85F344C770C6B34AEC0ADB5470419403 /* Pods-MOBaseControls_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MOBaseControls_Tests.modulemap"; sourceTree = "<group>"; };
 		8959EFF4ED2C473620C5934AF38D555E /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
 		8C5926F04B724FCFC18EB3D230A13C07 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
-		8CAB77B4710E46ED908DFF1401CB6544 /* MOBaseControls.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MOBaseControls.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8CAB77B4710E46ED908DFF1401CB6544 /* MOBaseControls.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MOBaseControls.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8CBBA7E04AFDE8A59A812B6756CB3D23 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CE43BD144D917C7664C0E2ACD5FA237 /* MOBaseControls.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MOBaseControls.xcconfig; sourceTree = "<group>"; };
 		8D6693C457C9655D1E49B7B8027767CF /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
@@ -170,15 +172,17 @@
 		9A38F2729512C0062AB4ECB3B85271D0 /* Pods-MOBaseControls_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MOBaseControls_Example-Info.plist"; sourceTree = "<group>"; };
 		9AC281399063A5E62CECFBBD097D01D2 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
 		9AE70F31CA0BE6F6302B2E441932335A /* MOBaseControls-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MOBaseControls-Info.plist"; sourceTree = "<group>"; };
+		9AED528222E051D4006AAA8B /* MBProgressHUD+HUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "MBProgressHUD+HUD.swift"; path = "MOBaseControls/Classes/MBProgressHUD+HUD.swift"; sourceTree = "<group>"; };
+		9AED528322E051D4006AAA8B /* UIView+Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Common.swift"; path = "MOBaseControls/Classes/UIView+Common.swift"; sourceTree = "<group>"; };
 		9BD01D8527DEDE1459751D77143A1484 /* Pods-MOBaseControls_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MOBaseControls_Example.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0E47E677C01D5915B63F4804468307B /* Pods-MOBaseControls_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MOBaseControls_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A16CBDC9E8348101FB596E1B0D64B3DD /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
 		A3B05D67474C864108894B0276F50166 /* MOBaseControls-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MOBaseControls-prefix.pch"; sourceTree = "<group>"; };
 		A3FB1A5B1AC4534F782EDB25ECF16404 /* Tch_007_shortGreen@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Tch_007_shortGreen@3x.png"; path = "MOBaseControls/Assets/Tch_007_shortGreen@3x.png"; sourceTree = "<group>"; };
 		A66AA66BCD7583FB9A6324FB89D6C530 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
 		A671A026067AF279C0A07DAC5E3D5F56 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
-		AD50642689B4A6E550058B9710D055FD /* Pods_MOBaseControls_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MOBaseControls_Tests.framework; path = "Pods-MOBaseControls_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD50642689B4A6E550058B9710D055FD /* Pods_MOBaseControls_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MOBaseControls_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD987A1159B964F010DD899EB68DFEF4 /* UITableview+CYNodata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableview+CYNodata.swift"; path = "MOBaseControls/Classes/UITableview+CYNodata.swift"; sourceTree = "<group>"; };
 		AFED11FB89850833E459770A35B36B0D /* Color+Common.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Color+Common.swift"; path = "MOBaseControls/Classes/Color+Common.swift"; sourceTree = "<group>"; };
 		B18D158EDF2D5F96B017CCA46F467726 /* navi_back@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "navi_back@3x.png"; path = "MOBaseControls/Assets/navi_back@3x.png"; sourceTree = "<group>"; };
@@ -188,9 +192,9 @@
 		C58EFA8059905CE610201646998C1E2B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CA4FF4E71663EC42540FE25987543F34 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
 		D0F94C7C263067A0535BA4C068F5BA96 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
-		D292116CE63244955E21FF203C0B7091 /* MOBaseControls.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MOBaseControls.bundle; path = "MOBaseControls-MOBaseControls.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D292116CE63244955E21FF203C0B7091 /* MOBaseControls.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOBaseControls.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6A7F0BF4A5076BE5E034E70D387BF5B /* Pods-MOBaseControls_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MOBaseControls_Example-umbrella.h"; sourceTree = "<group>"; };
-		D8F888F58C18C35FC5AFB11C0FFEC6F9 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F888F58C18C35FC5AFB11C0FFEC6F9 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD57681407AEFD673B38C05BBB4DCB56 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		E037A87B4C82DFCBC6819DA6E01F7B30 /* Pods-MOBaseControls_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MOBaseControls_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E755187DE739BE2D471476E5D4282781 /* Tch_007_longGreen@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Tch_007_longGreen@2x.png"; path = "MOBaseControls/Assets/Tch_007_longGreen@2x.png"; sourceTree = "<group>"; };
@@ -326,6 +330,8 @@
 		A0A3003F02E576BBBF7812C917A07A5D /* MOBaseControls */ = {
 			isa = PBXGroup;
 			children = (
+				9AED528222E051D4006AAA8B /* MBProgressHUD+HUD.swift */,
+				9AED528322E051D4006AAA8B /* UIView+Common.swift */,
 				AFED11FB89850833E459770A35B36B0D /* Color+Common.swift */,
 				83EF6B4E7CDB38678E6FBB19B8AA04B7 /* CYActionSheetViewController.swift */,
 				F23EA0F7A776D2D7E335ACC7E56F2C56 /* CYCustomNavigationView.swift */,
@@ -458,7 +464,6 @@
 				38C0BEE93AF56739E9FF303A7ECA5D04 /* UILayoutSupport+Extensions.swift */,
 				E30FFDD7CFF30076B0BF0F0C15956A86 /* Support Files */,
 			);
-			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -608,6 +613,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -724,6 +730,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AED528522E051D5006AAA8B /* MBProgressHUD+HUD.swift in Sources */,
 				2D65614D78680B887D8B62490E6558B2 /* Color+Common.swift in Sources */,
 				E9C3FCB7D836FFAE319F82422EAB884C /* CYActionSheetViewController.swift in Sources */,
 				186684EBBEA4EDCF53A55EA384A8A286 /* CYCustomNavigationView.swift in Sources */,
@@ -733,6 +740,7 @@
 				CB98C6B1ECC600AADFEA9ACC87029A66 /* CYTools.swift in Sources */,
 				374DCA7994AB99839DCD0B6F53F1549E /* MOBaseControls-dummy.m in Sources */,
 				F3DFAD8BB433B75BFF7CC8CF4B117052 /* UITableview+CYNodata.swift in Sources */,
+				9AED528622E051D5006AAA8B /* UIView+Common.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1098,8 +1106,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};

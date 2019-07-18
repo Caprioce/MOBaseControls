@@ -8,9 +8,9 @@
 
 import Foundation
 
-extension UIColor {
+public extension UIColor {
 
-    public class func color(hexString: String, alpha: CGFloat = 1.0 ) -> UIColor {
+    class func color(hexString: String, alpha: CGFloat = 1.0 ) -> UIColor {
         var colorStr = hexString.trimmingCharacters(in: NSCharacterSet.whitespacesAndNewlines).uppercased() as NSString
         if colorStr.length < 6 {
             return UIColor.clear
@@ -41,7 +41,7 @@ extension UIColor {
 
 }
 
-extension UIView {
+public extension UIView {
 
     func drawColor() {
         let gradient             = CAGradientLayer.init()

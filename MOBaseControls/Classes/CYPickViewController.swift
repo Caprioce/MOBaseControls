@@ -14,7 +14,7 @@ protocol CYPickViewDelegate: NSObjectProtocol {
 
 }
 
-class CYPickViewController: UIViewController {
+public class CYPickViewController: UIViewController {
 
     /// 动画时间
     fileprivate let animationTime = 0.2
@@ -70,27 +70,27 @@ class CYPickViewController: UIViewController {
     fileprivate var selectIndex = 0
     weak var delegate: CYPickViewDelegate?
 
-    convenience init(_ titleArr: [String]) {
+    public convenience init(_ titleArr: [String]) {
         self.init(nibName: nil, bundle: nil)
         self.titleArr = titleArr
     }
 
-    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
+    public override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
         modalTransitionStyle = .crossDissolve
         modalPresentationStyle = .overCurrentContext
     }
 
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         prepareUI()
     }
 
-    override func viewWillAppear(_ animated: Bool) {
+    public override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         showAnimation()
     }
@@ -157,15 +157,15 @@ extension CYPickViewController {
 //MARK:- UITableViewDelegate
 extension CYPickViewController: UIPickerViewDataSource, UIPickerViewDelegate {
 
-    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+    public func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         return titleArr.count
     }
 
-    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+    public func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
 
-    func pickerView(_ pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusing view: UIView?) -> UIView {
+    public func pickerView(_ pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusing view: UIView?) -> UIView {
         let label = UILabel(frame: CGRect(x: 0, y: 0, width: kScreenWidth, height: 37))
         label.font = UIFont.systemFont(ofSize: 18)
         label.textColor = UIColor.color(hexString: "333333")
@@ -174,12 +174,12 @@ extension CYPickViewController: UIPickerViewDataSource, UIPickerViewDelegate {
         return label
     }
 
-    func pickerView(_ pickerView: UIPickerView, rowHeightForComponent component: Int) -> CGFloat {
+    public func pickerView(_ pickerView: UIPickerView, rowHeightForComponent component: Int) -> CGFloat {
         return 37
     }
 
 
-    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+    public func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         selectIndex = row
     }
 

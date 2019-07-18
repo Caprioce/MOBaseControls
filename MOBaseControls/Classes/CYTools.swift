@@ -8,7 +8,7 @@
 
 import Foundation
 
-class CYTools {
+public class CYTools {
 
     static func getTopVC() -> (UIViewController?) {
         var window = UIApplication.shared.keyWindow

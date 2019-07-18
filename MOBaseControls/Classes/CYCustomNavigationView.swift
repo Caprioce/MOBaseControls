@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CYCustomNavigationView: UIView {
+public class CYCustomNavigationView: UIView {
 
     /// 背景
     fileprivate lazy var backView: UIView = {
@@ -96,12 +96,12 @@ class CYCustomNavigationView: UIView {
     /// rightBarButtonItem回调
     var rightBarButtonItemBlock: (()->Void)?
 
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         makeUI()
     }
 
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 
