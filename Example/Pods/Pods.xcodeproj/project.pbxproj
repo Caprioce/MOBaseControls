@@ -45,7 +45,6 @@
 		893E873A5D1423E3C5954031394AC16C /* CYCustomScrollHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416BEA8D1C441B9CEF6ABE6AF1ADF3EB /* CYCustomScrollHeadView.swift */; };
 		975123C95A07B24FF53243E88851A1A9 /* CYTipAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B221AE1CE5172E0846A5BA250885CECB /* CYTipAlertViewController.swift */; };
 		99DB5244381F5CEB1E4F54B3F702E937 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A7AEA6044B2018807C2D766ED9025D /* ConstraintItem.swift */; };
-		9AED528522E051D5006AAA8B /* MBProgressHUD+HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED528222E051D4006AAA8B /* MBProgressHUD+HUD.swift */; };
 		9AED528622E051D5006AAA8B /* UIView+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED528322E051D4006AAA8B /* UIView+Common.swift */; };
 		9DBD00C9807375C46718D6D42963367B /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC6236D47CB2BA34B4F1F344E985DF2 /* ConstraintMultiplierTarget.swift */; };
 		A048F6A041319F955B1E5BCDECBB0425 /* Tch_007_shortGreen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3FB1A5B1AC4534F782EDB25ECF16404 /* Tch_007_shortGreen@3x.png */; };
@@ -172,7 +171,6 @@
 		9A38F2729512C0062AB4ECB3B85271D0 /* Pods-MOBaseControls_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MOBaseControls_Example-Info.plist"; sourceTree = "<group>"; };
 		9AC281399063A5E62CECFBBD097D01D2 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
 		9AE70F31CA0BE6F6302B2E441932335A /* MOBaseControls-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MOBaseControls-Info.plist"; sourceTree = "<group>"; };
-		9AED528222E051D4006AAA8B /* MBProgressHUD+HUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "MBProgressHUD+HUD.swift"; path = "MOBaseControls/Classes/MBProgressHUD+HUD.swift"; sourceTree = "<group>"; };
 		9AED528322E051D4006AAA8B /* UIView+Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Common.swift"; path = "MOBaseControls/Classes/UIView+Common.swift"; sourceTree = "<group>"; };
 		9BD01D8527DEDE1459751D77143A1484 /* Pods-MOBaseControls_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MOBaseControls_Example.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -330,7 +328,6 @@
 		A0A3003F02E576BBBF7812C917A07A5D /* MOBaseControls */ = {
 			isa = PBXGroup;
 			children = (
-				9AED528222E051D4006AAA8B /* MBProgressHUD+HUD.swift */,
 				9AED528322E051D4006AAA8B /* UIView+Common.swift */,
 				AFED11FB89850833E459770A35B36B0D /* Color+Common.swift */,
 				83EF6B4E7CDB38678E6FBB19B8AA04B7 /* CYActionSheetViewController.swift */,
@@ -730,7 +727,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AED528522E051D5006AAA8B /* MBProgressHUD+HUD.swift in Sources */,
 				2D65614D78680B887D8B62490E6558B2 /* Color+Common.swift in Sources */,
 				E9C3FCB7D836FFAE319F82422EAB884C /* CYActionSheetViewController.swift in Sources */,
 				186684EBBEA4EDCF53A55EA384A8A286 /* CYCustomNavigationView.swift in Sources */,
